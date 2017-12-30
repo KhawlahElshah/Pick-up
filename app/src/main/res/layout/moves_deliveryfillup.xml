@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List your delivery: Delivery Information"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type of Residence:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/itemsspinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:entries="@array/residence_array"
+            android:prompt="@string/residence_prompt"
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0">
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of rooms:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/roomsspinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:entries="@array/numbers_array"
+            android:prompt="@string/numbers_prompt"
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+       >
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Collection stories:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/collectionstoriesspinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:entries="@array/numbers_array"
+            android:prompt="@string/numbers_prompt"
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        >
+
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery stories:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            />
+
+        <Spinner
+            android:id="@+id/deliverystoriesspinner"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:entries="@array/numbers_array"
+            android:prompt="@string/numbers_prompt"
+            >
+
+        </Spinner>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        >
+
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery stories:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/lenght"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#eae9e9"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/uploadimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e8c816"
+        android:text="upload image"
+        android:textColor="#000000"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e8c816"
+        android:text="next"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        />
+
+
+</LinearLayout>

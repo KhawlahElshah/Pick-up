@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22  // <--- your SDK must contains API 17 platform (android-17) that has all data and configurations of the API.
+    buildToolsVersion "27.0.0"
+
+    defaultConfig {
+        applicationId "android.projects"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    //compile 'com.android.support:support-annotations:19.1.0' //<!-- no need, it will be included automatically. lowest version is 19.1.0 -->
+    //compile 'com.android.support:support-v4:18.0.0'  //<!-- the version must be equal or higher than the target API. lowest version is 13.0.0 -->
+    compile files('libs/android-support-v4.jar') // manually include a specified support-v4 lib to project
+}

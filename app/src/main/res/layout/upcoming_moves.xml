@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<AbsoluteLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2aa07a"
+        android:text="Upcoming Moves"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="center"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="10dp"
+        android:layout_y="95dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="600dp"
+                android:layout_height="600dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/manphoto" />
+
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+
+        </AbsoluteLayout>
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:dividerPadding="0dp"
+    android:divider="@drawable/mydivider"
+    android:showDividers="middle">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List your delivery: Address Information"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.0"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pickup location:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+
+            <EditText
+                android:id="@+id/pickup_location"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#eae9e9"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When can your shipment be collected:"
+                android:textColor="#000000"
+                />
+
+
+            <Spinner
+                android:id="@+id/pickupdatespinner"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:entries="@array/numbers_array"
+                android:prompt="@string/numbers_prompt"
+                >
+
+            </Spinner>
+            <DatePicker
+                android:id="@+id/pickupdate"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                >
+
+            </DatePicker>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.0"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivery location:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+                />
+
+            <EditText
+                android:id="@+id/delivery_location"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#eae9e9"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1.0">
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When can your shipment be delivered:"
+                android:textColor="#000000"
+                />
+
+
+            <Spinner
+                android:id="@+id/deliverydatespinner"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:entries="@array/numbers_array"
+                android:prompt="@string/numbers_prompt"
+                >
+
+            </Spinner>
+            <DatePicker
+                android:id="@+id/deliverydate"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                >
+
+            </DatePicker>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

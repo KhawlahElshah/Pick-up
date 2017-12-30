@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List your delivery: Delivery Information"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="number of Items:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/itemsspinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:entries="@array/numbers_array"
+        android:prompt="@string/numbers_prompt"
+        >
+
+    </Spinner>
+
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Delivery title:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/deliverytitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/tv3"
+        android:layout_below="@id/itemsspinner"
+        android:background="#eae9e9"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Item 1 Information:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/meticradio"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="30dp"
+            android:text="Metric"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:checked="true"
+            android:background="#2ba17b"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+        <RadioButton
+            android:id="@+id/englishradio"
+            android:layout_width="0dp"
+            android:layout_weight="1.0"
+            android:layout_height="30dp"
+            android:text="English"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#2aa07a"
+            android:checked="false"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Lenght"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/radiogroup"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/lenght"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/radiogroup"
+        android:layout_toRightOf="@id/tv3"
+        android:background="#eae9e9"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="width"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv5"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/width"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/lenght"
+        android:layout_toRightOf="@id/tv3"
+        android:background="#eae9e9"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Quantity"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv6"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/quantityspinner"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/tv3"
+        android:layout_below="@id/tv6"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"
+        android:entries="@array/numbers_array"
+        android:prompt="@string/numbers_prompt"
+
+        >
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e8c816"
+        android:text="next"
+        android:textColor="#000000"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/quantityspinner"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

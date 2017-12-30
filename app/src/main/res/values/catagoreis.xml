@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="catagories_prompt">choose a catagory</string>
+
+    <string-array name="catagories_array">
+        <item>Moving</item>
+        <item>Animal</item>
+        <item>Document</item>
+        <item>Household</item>
+        <item>cars</item>
+        <item>Frieght</item>
+    </string-array>
+
+
+</resources>
