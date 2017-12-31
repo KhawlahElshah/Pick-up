@@ -1,19 +1,16 @@
-
 package android.projects;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
+
 
 public class MainActivity extends Activity {
 
-    // global scope variables
-
     @Override
-    protected void onCreate(Bundle bnd) {
-        super.onCreate(bnd);
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
-            setContentView(R.layout.login);
-
-        }
-
-}// MainActivity
+    }
+}

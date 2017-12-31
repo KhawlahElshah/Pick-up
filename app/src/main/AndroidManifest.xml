@@ -9,17 +9,25 @@
         android:label="Transport">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:label="Main activity"
             android:configChanges="orientation|keyboardHidden|screenSize"> <!-- prevent main activity from restart when screen rotated -->
 
             <!-- set current activity as default activity to start App -->
+
+        </activity>
+
+
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <activity android:name=".DynamicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
