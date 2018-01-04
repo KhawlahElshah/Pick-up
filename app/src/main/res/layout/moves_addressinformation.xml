@@ -6,7 +6,8 @@
     android:background="#FFFFFF"
     android:dividerPadding="0dp"
     android:divider="@drawable/mydivider"
-    android:showDividers="middle">
+    android:showDividers="middle"
+    android:padding="6dp">
 
 
     <LinearLayout
@@ -21,7 +22,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="List your delivery: Address Information"
-            android:textColor="#000000"
+            android:background="#2aa07a"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
             android:textSize="20dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"

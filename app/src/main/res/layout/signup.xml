@@ -17,6 +17,8 @@
         android:textSize="30dp"
         android:gravity="center"/>
 
+<!--add requestfocus-->
+
     <TextView
         android:id="@+id/labelcreate"
         android:layout_width="wrap_content"
@@ -44,15 +46,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:hint="First Name"
-
-            />
+            android:textColorHint="#000000"
+            >
+            <requestFocus/>
+        </EditText>
 
         <EditText
             android:id="@+id/lastname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
-            android:hint="Last Name" />
+            android:hint="Last Name"
+            android:textColorHint="#000000"/>
 
     </LinearLayout>
 
@@ -61,21 +66,24 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1.0"
-        android:hint="Email Address" />
+        android:hint="Email Address"
+        android:textColorHint="#000000"/>
 
     <EditText
         android:id="@+id/phonenumber"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1.0"
-        android:hint="Phone" />
+        android:hint="Phone"
+        android:textColorHint="#000000"/>
 
     <EditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1.0"
-        android:hint="Password" />
+        android:hint="Password"
+        android:textColorHint="#000000"/>
 
     <LinearLayout
         android:layout_width="match_parent"

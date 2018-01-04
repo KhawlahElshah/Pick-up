@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tv1" type="id"/>
+    <item name="tv2" type="id"/>
+    <item name="itemsspinner" type="id"/>
+    <item name="tv3" type="id"/>
+    <item name="deliverytitle" type="id"/>
+    <item name="tv4" type="id"/>
+    <item name="radiogroup" type="id"/>
+    <item name="meticradio" type="id"/>
+    <item name="englishradio" type="id"/>
+    <item name="tv5" type="id"/>
+    <item name="lenght" type="id"/>
+    <item name="tv6" type="id"/>
+    <item name="width" type="id"/>
+    <item name="tv7" type="id"/>
+    <item name="quantityspinner" type="id"/>
+    <item name="next" type="id"/>
+    <item name="movingbtn" type="id"/>
+
+</resources>

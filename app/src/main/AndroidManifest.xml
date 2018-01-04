@@ -28,6 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SigninActivity"/>
+        <activity android:name=".CatagoriesActivity"/>
+        <activity android:name=".AddressInformationActivity"/>
     </application>
 
 </manifest>

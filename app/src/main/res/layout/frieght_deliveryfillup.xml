@@ -5,18 +5,20 @@
     android:background="#ffffff">
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List your delivery: Delivery Information"
-        android:textColor="#000000"
+        android:background="#2aa07a"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
         android:textSize="20dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         />
 
     <TextView
-        android:id="@+id/tv2"
+        android:id="@id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="number of Items:"
@@ -29,7 +31,7 @@
         />
 
     <Spinner
-        android:id="@+id/itemsspinner"
+        android:id="@id/itemsspinner"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_toRightOf="@id/tv2"
@@ -45,7 +47,7 @@
 
 
     <TextView
-        android:id="@+id/tv3"
+        android:id="@id/tv3"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Delivery title:"
@@ -70,7 +72,7 @@
 
 
     <TextView
-        android:id="@+id/tv4"
+        android:id="@id/tv4"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Item 1 Information:"
@@ -83,7 +85,7 @@
         />
 
     <RadioGroup
-        android:id="@+id/radiogroup"
+        android:id="@id/radiogroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/tv4"
@@ -91,7 +93,7 @@
         >
 
         <RadioButton
-            android:id="@+id/meticradio"
+            android:id="@id/meticradio"
             android:layout_width="0dp"
             android:layout_weight="1.0"
             android:layout_height="30dp"
@@ -104,7 +106,7 @@
             android:layout_marginLeft="30dp"
             />
         <RadioButton
-            android:id="@+id/englishradio"
+            android:id="@id/englishradio"
             android:layout_width="0dp"
             android:layout_weight="1.0"
             android:layout_height="30dp"
@@ -120,7 +122,7 @@
     </RadioGroup>
 
     <TextView
-        android:id="@+id/tv5"
+        android:id="@id/tv5"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Lenght"
@@ -133,7 +135,7 @@
         />
 
     <EditText
-        android:id="@+id/lenght"
+        android:id="@id/lenght"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_below="@id/radiogroup"
@@ -144,7 +146,7 @@
         android:layout_marginRight="20dp"/>
 
     <TextView
-        android:id="@+id/tv6"
+        android:id="@id/tv6"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="width"
@@ -157,7 +159,7 @@
         />
 
     <EditText
-        android:id="@+id/width"
+        android:id="@id/width"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_below="@id/lenght"
@@ -168,7 +170,7 @@
         android:layout_marginRight="20dp"/>
 
     <TextView
-        android:id="@+id/tv7"
+        android:id="@id/tv7"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Quantity"
@@ -181,7 +183,7 @@
         />
 
     <Spinner
-        android:id="@+id/quantityspinner"
+        android:id="@id/quantityspinner"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_toRightOf="@id/tv3"
@@ -197,7 +199,7 @@
     </Spinner>
 
     <Button
-        android:id="@+id/next"
+        android:id="@id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#e8c816"
