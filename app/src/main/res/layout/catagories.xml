@@ -4,7 +4,7 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/white"
     android:columnCount="3"
     android:rowCount="3"
     android:padding="6dp">
@@ -25,8 +25,8 @@
             android:textSize="35dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:background="#2aa07a"
-            android:textColor="#FFFFFF"
+            android:background="@color/green"
+            android:textColor="@color/white"
             android:padding="10dp"
             android:layout_marginBottom="20dp"/>
 
@@ -50,20 +50,16 @@
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_width="match_parent"
-
-            />
-
-
-        <TextView
             android:text="Moves"
-            android:layout_height="0dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="25dp"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
+
+
             />
+
+
+
     </LinearLayout>
 
 
@@ -79,23 +75,17 @@
         android:background="@drawable/bgline"
         >
 
-        <ImageButton
-            android:src="@drawable/appliciance"
+
+        <Button
+
+            android:background="@drawable/appliciance"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_width="match_parent"
-            android:scaleType="fitXY"
-            android:background="#FFFFFF"
-            />
-        <TextView
-            android:text="HouseHold Items"
-            android:layout_height="0dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="20dp"
+            android:text="HouseHold Applacince"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
             />
     </LinearLayout>
 
@@ -112,23 +102,18 @@
         android:background="@drawable/bgline"
         >
 
-        <ImageButton
-            android:src="@drawable/animal"
+
+
+        <Button
+
+            android:background="@drawable/animal"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_width="match_parent"
-            android:scaleType="fitXY"
-            android:background="#FFFFFF"
-            />
-        <TextView
             android:text="Animal"
-            android:layout_height="0dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="25dp"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
             />
     </LinearLayout>
 
@@ -145,23 +130,18 @@
         android:background="@drawable/bgline"
         >
 
-        <ImageButton
-            android:src="@drawable/car"
+
+
+        <Button
+
+            android:background="@drawable/car"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_width="match_parent"
-            android:scaleType="fitXY"
-            android:background="#FFFFFF"
-            />
-        <TextView
             android:text="Cars"
-            android:layout_height="0dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="25dp"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
             />
     </LinearLayout>
 
@@ -178,24 +158,20 @@
         android:background="@drawable/bgline"
         >
 
-        <ImageButton
-            android:src="@drawable/container"
+
+
+        <Button
+
+            android:background="@drawable/container"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_width="match_parent"
-            android:scaleType="fitXY"
-            android:background="#FFFFFF"
-            />
-        <TextView
             android:text="Frieght"
-            android:layout_height="0dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="25dp"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
             />
+
     </LinearLayout>
 
     <LinearLayout
@@ -210,23 +186,17 @@
         android:background="@drawable/bgline"
         >
 
-        <ImageButton
-            android:src="@drawable/documents"
+
+        <Button
+
+            android:background="@drawable/documents"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:layout_width="match_parent"
-            android:scaleType="fitXY"
-            android:background="#FFFFFF"
-            />
-        <TextView
             android:text="Documents"
-            android:layout_height="0dp"
-            android:layout_width="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="20dp"
             android:textStyle="bold"
-            android:textColor="#000000"
+            android:textColor="@color/black"
+            android:gravity="bottom|center_horizontal"
             />
     </LinearLayout>
 

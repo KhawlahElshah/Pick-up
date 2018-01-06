@@ -1,24 +1,17 @@
 package android.projects;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.view.View;
-import android.widget.Button;
 
 /**
- * Created by HP on 01/04/2018.
+ * Created by HP on 01/06/2018.
  */
 
-public class CatagoriesActivity extends Activity {
-
-
-
+public class UpcomingMovesActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.catagories);
-
+        setContentView(R.layout.upcoming_moves);
     }
 }

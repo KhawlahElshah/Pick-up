@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    android:background="@color/white">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
     <TextView
         android:id="@id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List your delivery: Delivery Information"
-        android:background="#2aa07a"
-        android:textColor="#FFFFFF"
+        android:background="@color/green"
+        android:textColor="@color/white"
         android:padding="10dp"
         android:textSize="20dp"
         android:layout_centerHorizontal="true"
@@ -22,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="number of Items:"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/tv1"
@@ -51,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Delivery title:"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/tv2"
@@ -65,7 +69,7 @@
         android:layout_height="30dp"
         android:layout_toRightOf="@id/tv3"
         android:layout_below="@id/itemsspinner"
-        android:background="#eae9e9"
+        android:background="@color/grey"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="20dp"/>
@@ -76,7 +80,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Item 1 Information:"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/tv3"
@@ -98,10 +102,10 @@
             android:layout_weight="1.0"
             android:layout_height="30dp"
             android:text="Metric"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
             android:checked="true"
-            android:background="#2ba17b"
+            android:background="@color/green"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
             />
@@ -111,9 +115,9 @@
             android:layout_weight="1.0"
             android:layout_height="30dp"
             android:text="English"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
-            android:background="#2aa07a"
+            android:background="@color/green"
             android:checked="false"
             android:layout_marginRight="30dp"
             android:layout_marginLeft="30dp"
@@ -126,7 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Lenght"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/radiogroup"
@@ -140,7 +144,7 @@
         android:layout_height="30dp"
         android:layout_below="@id/radiogroup"
         android:layout_toRightOf="@id/tv3"
-        android:background="#eae9e9"
+        android:background="@color/grey"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="20dp"/>
@@ -150,7 +154,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="width"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/tv5"
@@ -164,7 +168,7 @@
         android:layout_height="30dp"
         android:layout_below="@id/lenght"
         android:layout_toRightOf="@id/tv3"
-        android:background="#eae9e9"
+        android:background="@color/grey"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="20dp"/>
@@ -174,7 +178,7 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:text="Quantity"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@id/tv6"
@@ -199,12 +203,12 @@
     </Spinner>
 
     <Button
-        android:id="@id/next"
+        android:id="@id/fnext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#e8c816"
+        android:background="@color/yellow"
         android:text="next"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
         android:layout_marginTop="10dp"
@@ -213,3 +217,4 @@
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
+</ScrollView>

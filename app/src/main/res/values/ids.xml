@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!--login layout ids-->
+    <item name="email" type="id"/>
+    <item name="password" type="id"/>
+    <item name="forgotpassword" type="id"/>
+    <item name="signup" type="id"/>
+    <item name="login" type="id"/>
+
+    <!--signup layout ids-->
+    <item name="head" type="id"/>
+    <item name="labelcreate" type="id"/>
+    <item name="firstname" type="id"/>
+    <item name="lastname" type="id"/>
+    <item name="emailsignup" type="id"/>
+    <item name="phonenumber" type="id"/>
+    <item name="passwordsignup" type="id"/>
+    <item name="fsignup" type="id"/>
+    <item name="cancel" type="id"/>
+
+    <!--main ids-->
+    <item name="homebtn" type="id"/>
+    <item name="upcomingbtn" type="id"/>
+    <item name="calculatecostbtn" type="id"/>
+    <item name="getmoving" type="id"/>
+
+    <!--calculate cost ids-->
+    <item name="costestimate" type="id"/>
+
     <item name="tv1" type="id"/>
     <item name="tv2" type="id"/>
     <item name="itemsspinner" type="id"/>
@@ -17,6 +44,7 @@
     <item name="tv7" type="id"/>
     <item name="quantityspinner" type="id"/>
     <item name="next" type="id"/>
+    <item name="fnext" type="id"/>
     <item name="movingbtn" type="id"/>
 
 </resources>

@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/white"
     android:padding="6dp">
 
     <TextView
@@ -11,12 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List your delivery: Delivery Information"
-        android:background="#2aa07a"
-        android:textColor="#FFFFFF"
+        android:background="@color/green"
+        android:textColor="@color/white"
         android:padding="10dp"
         android:textSize="20dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+
         />
 
     <LinearLayout
@@ -24,14 +24,14 @@
         android:layout_height="0dp"
         android:orientation="horizontal"
         android:layout_weight="1.0"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="20dp">
 
         <TextView
             android:id="@+id/tv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Type of Residence:"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
 
             />
@@ -61,7 +61,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Number of rooms:"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
 
             />
@@ -91,7 +91,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Collection stories:"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
 
             />
@@ -121,7 +121,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Delivery stories:"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
 
             />
@@ -152,7 +152,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Delivery stories:"
-            android:textColor="#000000"
+            android:textColor="@color/black"
             android:textSize="20dp"
 
             />
@@ -162,7 +162,7 @@
             android:id="@+id/lenght"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="#eae9e9"
+            android:background="@color/grey"
             />
 
 
@@ -172,9 +172,9 @@
         android:id="@+id/uploadimage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#e8c816"
+        android:background="@color/yellow"
         android:text="upload image"
-        android:textColor="#000000"
+        android:textColor="@color/black"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:layout_marginTop="10dp"
@@ -185,15 +185,15 @@
         android:id="@+id/next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#e8c816"
+        android:background="@color/yellow"
         android:text="next"
-        android:textSize="30dp"
-        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textColor="@color/black"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         android:layout_marginTop="10dp"
        android:layout_gravity="center"
-        android:layout_marginBottom="30dp"
+
         />
 
 

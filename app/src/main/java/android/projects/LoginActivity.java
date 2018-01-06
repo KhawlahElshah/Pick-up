@@ -11,14 +11,13 @@ public class LoginActivity extends Activity {
 
     // global scope variables
 
-    public Button loginbt;
+    public Button loginbt, signupbt;
 
 
     public void init(){
 
         loginbt=(Button)findViewById(R.id.login);
         loginbt.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
 
@@ -27,6 +26,17 @@ public class LoginActivity extends Activity {
                 startActivity(myIntent);
 
 
+            }
+        });
+
+        signupbt=(Button)findViewById(R.id.signup);
+        signupbt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent myIntent1 = new Intent(getApplicationContext(),
+                        SigninActivity.class);
+                startActivity(myIntent1);
             }
         });
     }

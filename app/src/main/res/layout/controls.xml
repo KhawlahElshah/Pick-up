@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green"/>
+
+    <ToggleButton
+        android:id="@+id/togglebtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/grey"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/v1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textOn="Fill"
+        android:textOff="Unfill"
+        android:textColor="@color/black"
+        android:checked="false"
+        />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/togglebtn"
+        android:background="@color/grey"
+        android:entries="@array/catagories_array"
+        android:choiceMode="singleChoice"
+        android:layout_marginLeft="10dp"
+
+        ></ListView>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/grey"
+        android:text="Apartment"
+        android:padding="5dp"
+        android:layout_below="@id/togglebtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        />
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/grey"
+        android:text="House"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/check1"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        />
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:background="@color/grey"
+        android:text="Office"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/check2"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/controlsnext"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_below="@id/list"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Test</string>
+
+    <string name="catagories_prompt">choose a catagory</string>
+
+    <string-array name="catagories_array">
+        <item>Moving</item>
+        <item>Animal</item>
+        <item>Document</item>
+        <item>Household</item>
+        <item>cars</item>
+        <item>Frieght</item>
+    </string-array>
+
+    <string name="residence_prompt">choose residence type</string>
+    <string-array name="residence_array">
+        <item>Aprtment</item>
+        <item>House</item>
+        <item>Office</item>
+
+
+    </string-array>
+
+
+    <string name="numbers_prompt">choose a number</string>
+
+    <string-array name="numbers_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
 </resources>

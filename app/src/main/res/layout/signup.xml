@@ -2,125 +2,121 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#ffffff"
-    >
+    android:background="@color/white"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/head"
+        android:id="@id/head"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2.0"
+        android:layout_weight="1.0"
         android:background="#2aa07a"
+        android:gravity="center"
         android:text="Transport"
-        android:textColor="#FFFFFF"
-        android:textSize="30dp"
-        android:gravity="center"/>
+        android:textColor="@color/white"
+        android:textSize="30dp" >
 
-<!--add requestfocus-->
+        <requestFocus/>
+    </TextView>
+
+
 
     <TextView
-        android:id="@+id/labelcreate"
+        android:id="@id/labelcreate"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:layout_below="@id/head"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:layout_weight="1.0"
         android:text="Create an Account"
-        android:textColor="#000000"
-        android:layout_below="@id/head"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        />
+        android:textColor="@color/black" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginTop="10dp"
         android:layout_weight="1.0"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        >
+        android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/firstname"
+            android:id="@id/firstname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:hint="First Name"
-            android:textColorHint="#000000"
-            >
-            <requestFocus/>
+            android:textColorHint="@color/black">
+
+            <requestFocus />
         </EditText>
 
         <EditText
-            android:id="@+id/lastname"
+            android:id="@id/lastname"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
             android:hint="Last Name"
-            android:textColorHint="#000000"/>
+            android:textColorHint="@color/black" />
 
     </LinearLayout>
 
     <EditText
-        android:id="@+id/email"
+        android:id="@id/emailsignup"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1.0"
         android:hint="Email Address"
-        android:textColorHint="#000000"/>
+        android:textColorHint="@color/black" />
 
     <EditText
-        android:id="@+id/phonenumber"
+        android:id="@id/phonenumber"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1.0"
         android:hint="Phone"
-        android:textColorHint="#000000"/>
+        android:textColorHint="@color/black" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@id/passwordsignup"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_weight="1.0"
         android:hint="Password"
-        android:textColorHint="#000000"/>
+        android:textColorHint="@color/black" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="60dp"
+        android:layout_gravity="center_horizontal"
 
         >
-        <Button
-            android:id="@+id/login"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1.0"
-            android:background="#e8c816"
-            android:text="LOGIN"
-            android:textColor="#000000"
-            android:layout_gravity="center"
-            android:paddingLeft="30dp"
-            android:paddingRight="30dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="30dp"/>
 
         <Button
-            android:id="@+id/cancel"
-            android:layout_width="0dp"
+            android:id="@id/fsignup"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1.0"
-            android:background="#dcdadb"
-            android:text="Cancel"
-            android:textColor="#000000"
-            android:layout_gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/yellow"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
-            android:layout_marginTop="10dp"
+            android:text="Sign up"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginLeft="30dp"
-            android:layout_marginRight="20dp"/>
+            android:background="@color/grey"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="Cancel"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 </LinearLayout>
